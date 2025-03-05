@@ -95,7 +95,11 @@ console.log(celsiusToFahrenheit(17));
 console.log(celsiusToFahrenheit(29));
 
 tot_temperature_in_fahrenheit = 32 + 70 + 80 + 72 + 68 + 75 + 82 + 65 + 77 + 78 + 72 + 79 + 71 + 74 + 76
+console.log(tot_temperature_in_fahrenheit);
 tot_temperature_in_celsius = 25 + 18 + 15 + 28 + 20 + 23 + 30 + 22 + 26 + 24 + 21 + 27 + 19 + 17 + 29
+console.log(tot_temperature_in_celsius);
 
 avg_temperature_in_fahrenheit = tot_temperature_in_fahrenheit / 15;
+console.log(avg_temperature_in_fahrenheit);
 avg_temperature_in_celsius = tot_temperature_in_celsius / 15;
+console.log(avg_temperature_in_celsius);
