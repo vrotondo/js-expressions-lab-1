@@ -51,3 +51,51 @@ const day27TempF = 74;
 const day28TempC = 17;
 const day29TempF = 76;
 const day30TempC = 29;
+
+// Function to convert Fahrenheit to Celsius
+function fahrenheitToCelsius(fahrenheit) {
+    return (fahrenheit - 32) * (5 / 9);
+}
+
+// Function to convert Celsius to Fahrenheit
+function celsiusToFahrenheit(celsius) {
+    return celsius * (9 / 5) + 32;
+}
+
+console.log(fahrenheitToCelsius(32));
+console.log(fahrenheitToCelsius(70));
+console.log(fahrenheitToCelsius(80));
+console.log(fahrenheitToCelsius(72));
+console.log(fahrenheitToCelsius(68));
+console.log(fahrenheitToCelsius(75));
+console.log(fahrenheitToCelsius(82));
+console.log(fahrenheitToCelsius(65));
+console.log(fahrenheitToCelsius(77));
+console.log(fahrenheitToCelsius(78));
+console.log(fahrenheitToCelsius(72));
+console.log(fahrenheitToCelsius(79));
+console.log(fahrenheitToCelsius(71));
+console.log(fahrenheitToCelsius(74));
+console.log(fahrenheitToCelsius(76));
+
+console.log(celsiusToFahrenheit(25));
+console.log(celsiusToFahrenheit(18));
+console.log(celsiusToFahrenheit(15));
+console.log(celsiusToFahrenheit(28));
+console.log(celsiusToFahrenheit(20));
+console.log(celsiusToFahrenheit(23));
+console.log(celsiusToFahrenheit(30));
+console.log(celsiusToFahrenheit(22));
+console.log(celsiusToFahrenheit(26));
+console.log(celsiusToFahrenheit(24));
+console.log(celsiusToFahrenheit(21));
+console.log(celsiusToFahrenheit(27));
+console.log(celsiusToFahrenheit(19));
+console.log(celsiusToFahrenheit(17));
+console.log(celsiusToFahrenheit(29));
+
+tot_temperature_in_fahrenheit = 32 + 70 + 80 + 72 + 68 + 75 + 82 + 65 + 77 + 78 + 72 + 79 + 71 + 74 + 76
+tot_temperature_in_celsius = 25 + 18 + 15 + 28 + 20 + 23 + 30 + 22 + 26 + 24 + 21 + 27 + 19 + 17 + 29
+
+avg_temperature_in_fahrenheit = tot_temperature_in_fahrenheit / 15;
+avg_temperature_in_celsius = tot_temperature_in_celsius / 15;
